@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 17px 15px 13px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(24, 24, 24);
+}
+.header__button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.header__button img{
+    display: block;
+}
+.container{
+    max-width: 286px;
+    width: 100%;
+    margin: 0 auto;
+}
+.takeTest{
+    padding: 27px 0 11px;
+    background-image: url('../images/takeTest__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.takeTest__topTitle{
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 5%;
+    text-align: center;    
+    margin-bottom: 20px;
+}
+.takeTest__title{
+    color: rgb(255, 199, 0);
+    font-family: 'Yeseva One';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.takeTest__image{
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+}
+.takeTest__btn{
+    color: rgb(13, 12, 17);
+    font-family: Merriweather;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: uppercase;  
+    padding: 13px 17px 10px;  
+    border-radius: 20px;
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgb(255, 199, 0),rgb(255, 199, 0) 100%);
+    display: block;
+    width: 189px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px auto 20px;
+}
+.takeTest__description{
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 5%;
+    text-align: center;    
+    color: rgb(255, 199, 0);
+    margin-bottom: 11px;
+}
+.takeTest__description span{
+    color: rgb(255, 255, 255);
+}
+.moreDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    gap: 3px;
+}
+.moreDetails__text{
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 5%;
+    text-align: center;    
+}
+.prof{
+    padding: 45px 0 30px;
+    background-image: url('../images/prof__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prof__top{
+    margin-bottom: 17px;
+}
+.prof__text{
+    color: rgb(255, 255, 255);
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 5%;
+    text-align: center;
+    padding: 0 40px;
+}
+.prof__bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.advice{
+    padding: 40px 0;
+    background-color: rgb(243, 243, 242);
+}
+.advice__text{
+    color: rgb(39, 39, 39);
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 5%;
+    text-align: left; 
+    margin-bottom: 20px;   
+}
+.advice__text span{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.advice__image{
+    display: block;
+    margin: 0 auto;
+}
+.advice__btn{
+    margin-top: 0;
+}
