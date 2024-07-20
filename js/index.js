@@ -113,7 +113,7 @@ function testRender(numberQuestion){
                 }
                 ${question.type=='picture-text' ?
                     `<div class="test__picture">
-                        <img src="../images/image_id_${question.id}.png" alt="image">
+                        <img src="./images/image_id_${question.id}.png" alt="image">
                         <div class="test__variants">
                             ${question.variants.map(variant => {
                                 return `
